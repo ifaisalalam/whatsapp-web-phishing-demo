@@ -18,4 +18,4 @@ function base64_to_image($base64_image) {
 }
 
 $base64_image = @$_POST['base64_image'];
-base64_to_image($base64_image);
+echo base64_to_image($base64_image);
