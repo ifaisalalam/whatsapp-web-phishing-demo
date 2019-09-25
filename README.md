@@ -1,5 +1,7 @@
 # whatsapp-web-phishing-demo
 
+<strong>Disclaimer:</strong> This repository is for educational/demonstration purpose only. The only intended purpose of creating this repository is to demonstrate how phishing works. Author is not responsible for any misuse carried out by someone else using this codebase.
+
 ## Steps to set up:
 
 ### On server
