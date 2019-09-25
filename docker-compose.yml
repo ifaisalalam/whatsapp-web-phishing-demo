@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  whatsapp_web:
+    build: .
+    image: ifaisalalam/whatsapp-web-phishing-demo
+    restart: on-failure
+    ports:
+      - 8000:80
+      - 8000:443
