@@ -7,7 +7,11 @@ function base64_to_image($base64_image) {
     $imageFileName = "qr.${imageFormat}";
 
     $fp = fopen($imageFileName, "wb");
-    fwrite($fp, base64_decode($data));
+
+    fwrite($fp, base64_decode(
+        str_replace(' ', '+', $data)
+    ));
+
     fclose($fp);
 
     return $imageFileName;
